@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="445.0" prefWidth="154.0" styleClass="toolbar-container" stylesheets="@../../../resources/dark-theme.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SMLS.controleursVues.ToolbarController">
+   <children>
+      <JFXButton contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadAddBook" prefHeight="400.0" prefWidth="160.0" styleClass="toolbar-button" text="Ajouter Ligne" textAlignment="CENTER">
+         <graphic>
+            <FontAwesomeIconView glyphName="EDIT" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="10.0" layoutY="81.0" mnemonicParsing="false" onAction="#loadBookTable" prefHeight="400.0" prefWidth="160.0" styleClass="toolbar-button" text="Liste Ligne" textAlignment="CENTER">
+         <graphic>
+            <FontAwesomeIconView glyphName="TABLE" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAddMember" prefHeight="400.0" prefWidth="160.0" styleClass="toolbar-button" text="Ajouter Station" textAlignment="CENTER">
+         <graphic>
+            <FontAwesomeIconView glyphName="EDIT" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadMemberTable" prefHeight="400.0" prefWidth="160.0" styleClass="toolbar-button" text="Liste Station" textAlignment="CENTER">
+         <graphic>
+            <FontAwesomeIconView glyphName="TABLE" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" mnemonicParsing="false" onAction="#loadIssuedBookList" prefHeight="400.0" prefWidth="160.0" styleClass="toolbar-button" text="Ajouter Arrêt" textAlignment="CENTER">
+         <graphic>
+            <FontAwesomeIconView glyphName="EDIT" size="25" textAlignment="CENTER" />
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="10.0" layoutY="223.0" mnemonicParsing="false" onAction="#loadSettings" prefHeight="400.0" prefWidth="160.0" styleClass="toolbar-button" text="Liste Arrêt" textAlignment="CENTER">
+         <graphic>
+            <FontAwesomeIconView glyphName="TABLE" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="10.0" layoutY="380.0" mnemonicParsing="false" onAction="#loadAddAb" prefHeight="400.0" prefWidth="160.0" styleClass="toolbar-button" text="Ajouter Abonnée" textAlignment="CENTER">
+         <graphic>
+            <FontAwesomeIconView glyphName="EDIT" size="25" />
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="10.0" layoutY="418.0" mnemonicParsing="false" onAction="#loadListAb" prefHeight="400.0" prefWidth="160.0" styleClass="toolbar-button" text="Liste Abonnée" textAlignment="CENTER">
+         <graphic>
+            <FontAwesomeIconView glyphName="TABLE" size="25" />
+         </graphic>
+      </JFXButton>
+   </children>
+</VBox>

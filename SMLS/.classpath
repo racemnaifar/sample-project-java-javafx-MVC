@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX12"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/boxable-1.5-RC.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/commons-codec-1.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/commons-csv-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/derby.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/derbyclient.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/fontawesomefx-commons-8.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/fontawesomefx-fontawesome-4.7.0-5.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/fontbox-2.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/gson-2.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/guava-21.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/javax.mail-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/jfoenix-8.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/log4j-api-2.11.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/log4j-core-2.11.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/pdfbox-2.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/slf4j-api-1.7.25.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/RACEM/PROJETS/projet iit/Projet JAVA/SMLS_PROJET/SMLS/libs/slf4j-simple-1.7.25.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
